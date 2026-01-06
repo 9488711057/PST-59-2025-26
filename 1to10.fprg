@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1to10"/>
+        <attribute name="authors" value="srisa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:30:02 PM"/>
+        <attribute name="created" value="c3Jpc2E7S0VTSEFWQU47MjAyNi0wMS0wNjswMzoyNzoyMyBQTTsyNDE3"/>
+        <attribute name="edited" value="c3Jpc2E7S0VTSEFWQU47MjAyNi0wMS0wNjswMzozMDowMiBQTTsxOzI1MTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="1"/>
+            <if expression="count&lt;10">
+                <then>
+                    <output expression="count" newline="True"/>
+                    <assign variable="count" expression="count+1"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

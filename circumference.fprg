@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="circumference"/>
+        <attribute name="authors" value="srisa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 02:30:25 PM"/>
+        <attribute name="created" value="c3Jpc2E7S0VTSEFWQU47MjAyNi0wMS0wNjswMjoyMDowMCBQTTsyNDA0"/>
+        <attribute name="edited" value="c3Jpc2E7S0VTSEFWQU47MjAyNi0wMS0wNjswMjozMDoyNSBQTTsxOzI1MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radius" type="Real" array="False" size=""/>
+            <declare name="circumference" type="Real" array="False" size=""/>
+            <declare name="pie" type="Real" array="False" size=""/>
+            <input variable="radius"/>
+            <assign variable="circumference" expression="2*pi*radius"/>
+            <output expression="&quot;circumference&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
